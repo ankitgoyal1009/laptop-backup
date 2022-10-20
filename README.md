@@ -1,7 +1,7 @@
 # laptop-backup
 What all you need to backup when migrating to a new laptop
 
-1. Check SSH key, zsh_history, zsh, bash_profile, bash_history.
+1. Check SSH key, zsh_history, zsh, bash_profile, bash_history, /etc/secrets.
 2. Check any signing certificates(signing key for Android app).
 3. Any local scripts you have wrote.
 4. check all the stash and local branches in your git projects.
