@@ -19,6 +19,13 @@ Installing existing ssh
 -   ssh-keygen -t ed25519 -b 4096 -C "{username@emaildomain.com}" -f {ssh-key-name}
 - To add existing key into ssh
 -   ssh-add ~/{ssh-key-name}
-
+Install SDK man
+- curl -s "https://get.sdkman.io" | bash
+- source "$HOME/.sdkman/bin/sdkman-init.sh"
+List of all java versions
+- sdk list java
+install java from sdk man
+- sdk install java 17.0.12-zulu
+- 
 
 
